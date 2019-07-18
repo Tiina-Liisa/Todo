@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="ToDo.css">
+    <title>ToDo</title>
+
+
+</head>
+
+<body>
+
+
+<div id="myDIV" class="header">
+
+    <h2>T i i n a - L i i s a ' s   T o D o   L i s t</h2>
+
+    <div id="empty" class="header"></div>
+    <input type="text" id="myUL" placeholder="Title...">
+    <span onclick="performGetRequest1()" class="addBtn">Show ToDos</span>
+    <div class="panel-body" id="readyPerformGetRequest1"></div>
+    <br/>
+    <br/>
+    <input type="text" id="myInput" placeholder="Title...">
+    <span onclick="performPostRequest()" class="addBtn">Add ToDo</span>
+    <div class="panel-body" id="getResult1"></div>
+    <div class="panel-body" id="printResult"></div>
+
+
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+<script src="ToDo.js"></script>
+
+</body>
+</html>
